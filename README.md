@@ -135,3 +135,4 @@
 - I replaced the Flask framework for Fastapi for its capabilities in OpenApi automatic documentation and asynchronous support.
 - The CI pipeline that I aimed for was Jenkins but I found it kinda strange to run in a local machine and so I choose the GH Actions that have exceeded my expectations and handled the whole thing very well.
 - My opinions still the same at this point. The difference I felt the most was that the initial setup had a heavier investment of time and effort that actually seems to pay off but haven't yet.
+- I'll need to make a front-end for this, f*ck!
