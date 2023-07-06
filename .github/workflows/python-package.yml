@@ -7,10 +7,14 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.8", "3.9", "3.10", "3.11"]
+        python-version: ["3.11"]
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        sparse-checkout: |
+          .github
+          src
     
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
@@ -30,7 +34,9 @@ jobs:
     - name: Test with pytest
       run: |
         pytest -v
-        
-    - name: Build once
+
+    - uses: actions/checkout@v3
+    - name: Build the Docker images
       run: |
-        uvicorn app.main:app
+        docker build . --file Dockerfile --tag ATS_Study:$(date +%s) 
+    
