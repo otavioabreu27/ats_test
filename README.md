@@ -1,6 +1,6 @@
-# ATS (all the stuff) Study 
+# ATS (all the stuff) Study
 <p align="center">
-    <a href="#Subject">Subject</a>  |  
+    <a href="#Subject">Subject</a>  |
     <a href="#Artifacts">Artifacts</a> |
     <a href="#TechReport">Tech Report</a> |
     <a href="#Problem">Problem</a> |
@@ -20,7 +20,7 @@
 
 - Enjoy!
 
-  
+
 
 <span id="Artifacts">
 
@@ -55,7 +55,7 @@
 
   - Manage to somehow make this available when in a "stable" state
 
-    
+
 
 <span id="TechReport">
 
@@ -63,7 +63,7 @@
 
 > To achieve all the artifacts, what technology will be used?
 >
-> **NOTE**: Those may not be the best technologies for the use cases but I'm trying to setup a environment that can be replicated in my daily activities. Real life stuff 🥱 
+> **NOTE**: Those may not be the best technologies for the use cases but I'm trying to setup a environment that can be replicated in my daily activities. Real life stuff 🥱
 
 - Version Management
   - Git + GitHub (same as always)
@@ -86,7 +86,7 @@
 
   - I don't really now, maybe DockerHub
 
-    
+
 
 <span id="Problem">
 
@@ -94,7 +94,7 @@
 
 > Ended up realizing I need something to fix
 
-- A Backend and CLI application for Task Management that generates stats about time invested in the tasks. 
+- A Backend and CLI application for Task Management that generates stats about time invested in the tasks.
 - It will work as Server and Client and will generate stats that will help the user trace their efforts by categories and etc.
 
 
@@ -109,9 +109,9 @@
 
 - Just make a fork, any PR will be reviewed and maybe implemented
 
-- Any appointed issue will be considered 
+- Any appointed issue will be considered
 
-  
+
 
 <span id="Journal">
 
@@ -124,8 +124,3 @@
 - Don't know where to begin
 - I'll break some initial features
 - Just wrote some issues in a Github Project, the first chapter, Hello World!
-
-
-
-
-
