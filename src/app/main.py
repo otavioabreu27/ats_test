@@ -1,4 +1,4 @@
-from typing import Union
+"""The main application module."""
 from fastapi import FastAPI
 import logging
 
@@ -14,8 +14,6 @@ app = FastAPI()
 
 @app.get("/")
 def hello_world():
-    """
-    Hello World!
-    """
+    """Hello World function."""
     logging.debug("Function hello_world from main.py")
     return {"Hello": "World"}
