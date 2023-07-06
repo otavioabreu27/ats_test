@@ -1,6 +1,6 @@
-# ATS (all the stuff) Study 
+# ATS (all the stuff) Study
 <p align="center">
-    <a href="#Subject">Subject</a>  |  
+    <a href="#Subject">Subject</a>  |
     <a href="#Artifacts">Artifacts</a> |
     <a href="#TechReport">Tech Report</a> |
     <a href="#Problem">Problem</a> |
@@ -20,7 +20,7 @@
 
 - Enjoy!
 
-  
+
 
 <span id="Artifacts">
 
@@ -55,7 +55,7 @@
 
   - Manage to somehow make this available when in a "stable" state
 
-    
+
 
 <span id="TechReport">
 
@@ -63,15 +63,20 @@
 
 > To achieve all the artifacts, what technology will be used?
 >
-> **NOTE**: Those may not be the best technologies for the use cases but I'm trying to setup a environment that can be replicated in my daily activities. Real life stuff 🥱 
+> **NOTE**: Those may not be the best technologies for the use cases but I'm trying to setup a environment that can be replicated in my daily activities. Real life stuff 🥱
 
 - Version Management
   - Git + GitHub (same as always)
+
 - CI
-  - GH Actions or Jenkins (still haven't figured it out)
+  - GH Actions (better for no cloud investment)
+  - Black, Flake8 and Pre-Commit routines
+  - Pytest for testing
 
+- Web
+  - Fastapi (Async support + Automatic Swagger Documentation)
+ 
 - Docs
-
   - [pdoc](https://pdoc3.github.io/pdoc/)
 
 - Logging
@@ -86,7 +91,6 @@
 
   - I don't really now, maybe DockerHub
 
-    
 
 <span id="Problem">
 
@@ -94,7 +98,7 @@
 
 > Ended up realizing I need something to fix
 
-- A Backend and CLI application for Task Management that generates stats about time invested in the tasks. 
+- A Backend and CLI application for Task Management that generates stats about time invested in the tasks.
 - It will work as Server and Client and will generate stats that will help the user trace their efforts by categories and etc.
 
 
@@ -109,9 +113,9 @@
 
 - Just make a fork, any PR will be reviewed and maybe implemented
 
-- Any appointed issue will be considered 
+- Any appointed issue will be considered
 
-  
+
 
 <span id="Journal">
 
@@ -125,7 +129,10 @@
 - I'll break some initial features
 - Just wrote some issues in a Github Project, the first chapter, Hello World!
 
+#### End of the first chapter
 
-
-
-
+- After something like 4 hours in and more 5 or 6 of alternatives study I ended with a base setup of tools that is a little different from the one I thought in a first moment.
+- I replaced the Flask framework for Fastapi for its capabilities in OpenApi automatic documentation and asynchronous support.
+- The CI pipeline that I aimed for was Jenkins but I found it kinda strange to run in a local machine and so I choose the GH Actions that have exceeded my expectations and handled the whole thing very well.
+- My opinions still the same at this point. The difference I felt the most was that the initial setup had a heavier investment of time and effort that actually seems to pay off but haven't yet.
+- I'll need to make a front-end for this, f*ck!
