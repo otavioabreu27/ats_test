@@ -15,6 +15,5 @@ app = FastAPI()
 @app.get("/")
 def hello_world():
     """Hello World function."""
-
     logging.debug("Function hello_world from main.py")
     return {"Hello": "World"}
