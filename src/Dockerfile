@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["uvicorn", "main:app", "--reload"]
+CMD ["uvicorn", "app.main:app", "--reload"]
